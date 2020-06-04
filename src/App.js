@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import GithubCorner from 'react-github-corner'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GithubCorner href='https://github.com/IanB64'
+        target="_blank" rel="noopener noreferrer"
+      />
+      <div className="personal-logo">
+        <img src="./untitled-black.svg" alt='logo'/>
+      </div>
+      <div className='msg'>
+        <h3>
+          hi there, it's ianbaiyilun <br />
+          i don't have much to show now <br />
+          later...
+        </h3>        
+      </div>
     </div>
   );
 }
