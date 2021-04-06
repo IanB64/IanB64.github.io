@@ -9,7 +9,7 @@ function App() {
         target="_blank" rel="noopener noreferrer"
       />
       <div className="personal-logo">
-        <img src="./untitled-black.svg" alt='logo'/>
+        <img src="./logos/untitled-black.svg" alt='logo'/>
       </div>
       <div className='msg'>
         <h3>
